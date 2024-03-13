@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+body {
+background-color:#f1f1f1;
+color:#0f141e;
+font-size: 24px;
+font-family: "Caveat", cursive;
+font-optical-sizing: auto;
+font-weight: 600;
+font-style: normal;
+
+  }
+
+a {
+text-decoration: none;
+  }
+a:hover{text-decoration:underline;}
+a:active{ color: blue;}
+a:visited{color:gray}
+.avatar{ 
+  height: 200px; 
+  width: 150px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+.header p{
+color: #86898f;
+margin: 0;
+text-transform: none;
+}
+/* .social {
+  background: red;
+  padding: 15px;
+  border: 5px solid black;
+} */
+.container {
+
+  max-width: 750px;
+  margin: auto;
+}
+.container h2{
+  text-align: center;
+}
+/* .container h1{
+  text-align: center;
+} */
+/* .container p{
+  text-align: center;
+} */
+.background_hobbi_yellow{
+  background-color: #fff9dc;
+}
+.background_courses_green{
+  background-color: #e5ffe7;
+}
+.background_info_red{
+  background-color: #ffe5e5;
+}
+.background{
+margin-bottom: 20px;
+border-radius: 20px;
+}
+.background h2{
+  margin-bottom: 15px;
+  }
+  .list li{
+    /* margin-bottom:10px ; */
+
+  }
+  .table{
+    width: 100%;
+  }
+  .table td:nth-child(1){
+    color: red;
+  }
+  .contact h2{
+    text-align: center;
+  }
+  .contact__form-group input {
+    height: 50px;
+     width: 100%;
+     border-radius: 10px;
+     outline: none;
+     font-family: inherit;
+     font-size: 18px;
+  }
+  
+  .header_align_center  {
+    display: flex;
+    padding: 20px;
+    font-optical-sizing:centr;
+    
+  }
+  @media (max-width:700px){
+    .header_align_center{
+      display: block;
+      text-align: center;
+    }
+  }
+ .header_margin {
+  margin-left: 60px;
+ }
+  .header_margin p {
+    margin-bottom: 10px;
+   
+  }
+  .header_margin h1 {
+    margin-bottom: 10px;
+  }
+.contact__button{
+    color: #111;
+    padding: 10px 10px;
+    font-family: inherit;
+    font-size: 18px;
+margin-top: 5px;
+font-weight: 800;
+cursor: pointer;
+/* position:static; */
+left: 100px;
+   }
+.contact__button:hover {
+    opacity: 0.9;
+   }
+
+
+  }
